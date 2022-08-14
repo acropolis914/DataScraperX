@@ -233,4 +233,5 @@ dependencies:
     - werkzeug==2.2.2
     - xlrd==1.2.0
     - xlsxwriter==3.0.3
+    - git+https://github.com/PablocFonseca/streamlit-aggridhttps://github.com/PablocFonseca/streamlit-aggrid
 prefix: C:\Users\phcad\.conda\envs\DataScraperX_byPol
