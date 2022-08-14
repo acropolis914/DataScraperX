@@ -191,7 +191,7 @@ if __name__ == "__main__":
     start = datetime.now()
     # convert_docx()
     #regex()
-    combineexcel()
+    #combineexcel()
     sums()
     streamlitx()
 
