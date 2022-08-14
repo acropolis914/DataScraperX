@@ -190,7 +190,7 @@ if __name__ == "__main__":
     warnings.filterwarnings(action='ignore')
     start = datetime.now()
     # convert_docx()
-    regex()
+    #regex()
     combineexcel()
     sums()
     streamlitx()
