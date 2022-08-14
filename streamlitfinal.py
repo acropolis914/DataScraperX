@@ -25,7 +25,7 @@ def streamlitx():
     with tab1:
         col1, col2 = st.columns([5, 2])
         with col1:
-            col1.subheader("A wide column with a chart")
+            col1.subheader("Data Summary")
             options_builder = GridOptionsBuilder.from_dataframe(df)
             options_builder.configure_column('Entry No.', displayName='', width=1, menuTabs=[], suppressMenu=True,
                                              suppressSizeToFit=True)
@@ -47,7 +47,7 @@ def streamlitx():
 
         data = dict(ChainMap(*selected_rows))
         with col2:
-            col2.subheader("A narrow column with the data")
+            col2.subheader("Click a data entry!")
             st.write("School:", data.get("School"))
             st.write("Grade:", data.get("Grade"))
             st.write("Strand and Section:", data.get("Strand"), data.get("Section"))
